@@ -17,15 +17,15 @@ Front-end applications can not communicate with the Stormpath API directly, and 
 4. Open it using the API Key ID and API Key Secret, run these commands:
 
   ```bash
-  $ export STORMPATH_CLIENT_APIKEY_ID=YOUR-ID-HERE
-  $ export STORMPATH_CLIENT_APIKEY_SECRET=YOUR-SECRET-HERE
+  $ export STORMPATH_CLIENT_APIKEY_ID=<YOUR-ID-HERE>
+  $ export STORMPATH_CLIENT_APIKEY_SECRET=<YOUR-SECRET-HERE>
   ```
 
 5. Login to the [Stormpath Console](https://api.stormpath.com/) and grab the *href* (called *REST URL* in the UI) of your *Application*
 6. Using the *App Href*, run this command:
 
   ```bash
-  $ export STORMPATH_APPLICATION_HREF=YOUR-APP-HREF
+  $ export STORMPATH_APPLICATION_HREF=<YOUR-APP-HREF>
   ```
 
 ## Usage
