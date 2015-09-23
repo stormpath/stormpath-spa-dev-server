@@ -1,0 +1,24 @@
+{
+  "name": "stormpath-spa-dev-server",
+  "version": "1.0.0",
+  "description": "Stormpath development server that provides your SPA app with a Stormpath integrated back-end.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-stormpath": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormpath/stormpath-spa-dev-server.git"
+  },
+  "author": "timothy@stormpath.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stormpath/stormpath-spa-dev-server/issues"
+  },
+  "homepage": "https://github.com/stormpath/stormpath-spa-dev-server#readme"
+}
