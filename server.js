@@ -44,6 +44,15 @@ app.use(stormpath.init(app, {
 
 app.use(express.static(SPA_ROOT));
 
+// Example of a protected route which requires login
+app.get('/secret', stormpath.loginRequired, function(req, res) {
+  /*
+    If we get here, the user is logged in. Otherwise, they
+    were redirected to the login page
+   */
+  res.send({ result: true });
+});
+
 // All undefined asset or api routes should return a 404
 app.route('/:url(api|auth|components|app|bower_components|assets)/*').get(function(req, res) {
   res.status(404).end();
