@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 var express = require('express');
@@ -18,7 +20,7 @@ function isValidPath(path) {
 }
 
 if (!isValidPath(SPA_ROOT)) {
-  console.error('Error: First argument must be a valid path to your front-end app.');
+  console.error('Error: First argument must be a valid path to your SPA app.');
   return 1;
 }
 
@@ -36,11 +38,11 @@ app.use(stormpath.init(app, {
     me: {
       enabled: true
     },
-    spaRoot: path.join(SPA_ROOT, 'public', 'index.html')
+    spaRoot: path.join(SPA_ROOT, 'index.html')
   }
 }));
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(SPA_ROOT));
 
 // All undefined asset or api routes should return a 404
 app.route('/:url(api|auth|components|app|bower_components|assets)/*').get(function(req, res) {
