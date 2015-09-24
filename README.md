@@ -8,13 +8,13 @@ Front-end applications can not communicate with the Stormpath API directly, and 
 
 1. Make sure you have [Node.js](https://nodejs.org/) installed
 2. Install the server
-  
+
   ```bash
   $ npm install -g stormpath-spa-dev-server
   ```
 
 3. [Download a key file](https://support.stormpath.com/hc/en-us/articles/203697276-Where-do-I-find-my-API-key-) from the Stormpath Console
-4. Open it using the API Key ID and API Key Secret, run these commands:
+4. Open it and grab the API Key ID and API Key Secret, then run these commands to configure the server with your credentials:
 
   ```bash
   $ export STORMPATH_CLIENT_APIKEY_ID=<YOUR-ID-HERE>
@@ -22,7 +22,7 @@ Front-end applications can not communicate with the Stormpath API directly, and 
   ```
 
 5. Login to the [Stormpath Console](https://api.stormpath.com/) and grab the *href* (called *REST URL* in the UI) of your *Application*
-6. Using the *App Href*, run this command:
+6. Run this command with your *App Href*:
 
   ```bash
   $ export STORMPATH_APPLICATION_HREF=<YOUR-APP-HREF>
