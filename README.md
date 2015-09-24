@@ -1,4 +1,4 @@
-# Stormpath SPA Dev Server
+# Stormpath SPA Development Server
 
 [Stormpath](https://stormpath.com/) development server that provides your SPA app with a Stormpath integrated back-end.
 
@@ -14,15 +14,15 @@ Front-end applications can not communicate with the Stormpath API directly, and 
   ```
 
 3. [Download a key file](https://support.stormpath.com/hc/en-us/articles/203697276-Where-do-I-find-my-API-key-) from the Stormpath Console
-4. Open it and grab the API Key ID and API Key Secret, then run these commands to configure the server with your credentials:
+4. Open it and grab the **API Key ID** and **API Key Secret**, then run these commands to configure the server with your credentials:
 
   ```bash
   $ export STORMPATH_CLIENT_APIKEY_ID=<YOUR-ID-HERE>
   $ export STORMPATH_CLIENT_APIKEY_SECRET=<YOUR-SECRET-HERE>
   ```
 
-5. Login to the [Stormpath Console](https://api.stormpath.com/) and grab the *href* (called *REST URL* in the UI) of your *Application*
-6. Run this command with your *App Href*:
+5. Login to the [Stormpath Console](https://api.stormpath.com/) and grab the *href* (called **REST URL** in the UI) of your *Application*
+6. Run this command with your **App Href**:
 
   ```bash
   $ export STORMPATH_APPLICATION_HREF=<YOUR-APP-HREF>
@@ -50,4 +50,4 @@ Contact us via email at support@stormpath.com or visit our [support center](http
 
 ## License
 
-Apache 2.0, see LICENSE.
+Apache 2.0, see [LICENSE](LICENSE).
