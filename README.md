@@ -21,7 +21,7 @@ Front-end applications can not communicate with the Stormpath API directly, and 
   $ export STORMPATH_CLIENT_APIKEY_SECRET=<YOUR-SECRET-HERE>
   ```
 
-5. Login to the [Stormpath Console](https://api.stormpath.com/) and grab the *href* (called **REST UR*L* in the UI) of your *Application*
+5. Login to the [Stormpath Console](https://api.stormpath.com/) and grab the *href* (called **REST URL** in the UI) of your *Application*
 6. Run this command with your **App Href**:
 
   ```bash
