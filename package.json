@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.13.3",
-    "express-stormpath": "^2.0.5"
+    "express-stormpath": "^2.0.12"
   },
   "devDependencies": {},
   "scripts": {
