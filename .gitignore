@@ -1,0 +1,6 @@
+coverage
+docs/_build
+node_modules
+.coveralls.yml
+*.log
+.env
