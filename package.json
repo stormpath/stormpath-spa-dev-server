@@ -7,7 +7,7 @@
     "stormpath-spa-dev-server": "server.js"
   },
   "dependencies": {
-    "express": "^4.13.3",
+    "express": "^4.13.4",
     "express-stormpath": "^2.0.12"
   },
   "devDependencies": {},
