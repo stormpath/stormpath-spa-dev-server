@@ -1,14 +1,14 @@
 {
   "name": "stormpath-spa-dev-server",
   "version": "1.0.1",
-  "description": "Stormpath development server that provides your SPA app with a Stormpath integrated back-end.",
+  "description": "Stormpath development server that provides your SPA or mobile app with a Stormpath integrated back-end.",
   "main": "server.js",
   "bin": {
     "stormpath-spa-dev-server": "server.js"
   },
   "dependencies": {
-    "express": "^4.13.3",
-    "express-stormpath": "2.4.0"
+    "express": "^4.13.4",
+    "express-stormpath": "3.1.0"
   },
   "devDependencies": {},
   "scripts": {

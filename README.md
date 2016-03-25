@@ -1,10 +1,9 @@
 # Stormpath SPA Development Server
 
-
 [![NPM Version](https://img.shields.io/npm/v/stormpath-spa-dev-server.svg?style=flat)](https://npmjs.org/package/stormpath-spa-dev-server)
 [![NPM Downloads](http://img.shields.io/npm/dm/stormpath-spa-dev-server.svg?style=flat)](https://npmjs.org/package/stormpath-spa-dev-server)
 
-[Stormpath](https://stormpath.com/) development server that provides your SPA app with a Stormpath integrated back-end.
+[Stormpath](https://stormpath.com/) development server that provides your SPA or mobile app with a Stormpath integrated back-end.
 
 Front-end applications can not communicate with the Stormpath API directly, and thus need an integrated back-end. Before your back-end has been integrated, use this development server when integrating Stormpath with your front-end app, using for example the [AngularJS SDK](https://github.com/stormpath/stormpath-sdk-angularjs).
 
