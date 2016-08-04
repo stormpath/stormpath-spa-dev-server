@@ -31,7 +31,7 @@ Front-end applications can not communicate with the Stormpath API directly, and 
   export STORMPATH_APPLICATION_HREF=YOUR_APP_HREF
   ```
 
-  **Unix Environment Variables:**
+  **Windows Environment Variables:**
 
   ```bash
   set STORMPATH_CLIENT_APIKEY_ID=YOUR_ID_HERE
