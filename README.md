@@ -77,7 +77,7 @@ touch with a member of our team:
 
 * Send an email to [support@stormpath.com](mailto:support@stormpath.com)
 * Open a Github Issue on this repository.
-* Join us on our Slack channel: [https://talkstormpath.slack.com](https://talkstormpath.slack.com)
+* Join us on our Slack channel: [https://talkstormpath.shipit.xyz/](https://talkstormpath.shipit.xyz/)
 
 ## License
 
