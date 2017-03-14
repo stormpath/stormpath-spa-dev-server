@@ -109,7 +109,7 @@ app.on('stormpath.ready', function () {
   var msg = SPA_ROOT ? 'Navigate to' : 'JSON API available at';
   spinner.succeed();
   console.log('\nReady!'.green);
-  console.log('\n'+msg+': http://localhost:3000');
+  console.log('\n'+msg+': http://localhost:'+PORT);
   // Now bring back error logging
   app.get('stormpathLogger').transports.console.level = 'error';
 });
